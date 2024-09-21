@@ -100,7 +100,7 @@
 .progres-bar {
     background: #000000;
     width: 80%;
-    height: 7px;
+    height: 5px;
     position: absolute;
     bottom: 13%;
     left: 10%;
@@ -108,10 +108,23 @@
 }
 
 .progres {
+    height: 5px;
+    background: #ffffff;
     width: 0%;
-    height: 7px;
-    background: #ffffffff;
 }
+
+.slider-thumb {
+    width: 10px;
+    height: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -2.5px;
+    left: 0;
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
 
 .time-bar {
     position: absolute;
